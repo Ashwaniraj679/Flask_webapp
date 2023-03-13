@@ -1,0 +1,54 @@
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 0 20px;
+}
+
+/* Change the background color and font color of the navbar */
+.navbar {
+    background-color: #fff;
+    color: #0a7664;
+}
+
+/* Change the background color and font color of the active link */
+.navbar-nav .active > .nav-link {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Change the font size and color of the header on the left */
+.navbar-brand {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Change the color and hover color of the links */
+.navbar-nav .nav-link {
+    color: #333;
+}
+.navbar-nav .nav-link:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Change the background color, border-radius, and hover effect of the buttons */
+.navbar-nav .nav-item .nav-link {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #555;
+}
+
+.image-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
