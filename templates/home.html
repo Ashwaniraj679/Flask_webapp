@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet2" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <title>
-            Data World
-        </title>
-        <link rel="stylesheet" href="home.css">
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        
+        <title>Data World</title>
+        
+        <link rel="stylesheet" type="text/css" href="static/home.css">
     </head>
+    
     <body>
         <header class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -15,25 +15,27 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="mailto:Ashwaniraj679@gmail.com">Email Me</a>
+                    </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="mailto:Ashwaniraj679@gmail.com">Email Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href = "https://github.com/Ashwaniraj679", target = "_blank"> Github</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/ashwani-raj-07149a224/", target = "_blank"> Linkedin</a>
-                </li>
-                </ul>
-            </div>
+                        <a class="nav-link" href = "https://github.com/Ashwaniraj679", target = "_blank"> Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/ashwani-raj-07149a224/", target = "_blank"> Linkedin</a>
+                    </li>
+                    </ul>
+                </div>
             </div>
         </header>
         
         <div class="b-example-divider"></div>
-        <img src= "{{url_for('static', filename='Images/home_img_unsplash.jpeg')}}">
-        </div>
+        <div class="image-container">
+            <img src= "{{url_for('static', filename='Images/home_img_unsplash.jpeg')}}">
+        </div>    
+
             <p class= "lead">
             Welcome to My Portfolio
             </p>
