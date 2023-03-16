@@ -1,54 +1,42 @@
-img {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-    height: auto;
-    padding: 0 20px;
+/* BG */
+
+body {
+    background: #FFF8F0;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+
 }
 
-/* Change the background color and font color of the navbar */
-.navbar {
-    background-color: #fff;
-    color: #0a7664;
+h1 {
+    font-family: League Spartan;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+    height: 150px;
+    width: 520px;
+    left: 190px;
+    top: 128px;
+    border-radius: nullpx;
+    color: #190D37;
 }
 
-/* Change the background color and font color of the active link */
-.navbar-nav .active > .nav-link {
-    background-color: #333;
-    color: #fff;
+h2 {
+    /* With 10+ years of developer and designer experience */
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
 }
 
-/* Change the font size and color of the header on the left */
-.navbar-brand {
-    font-size: 24px;
-    color: #333;
-}
+.subtitle{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #331E6A;
 
-/* Change the color and hover color of the links */
-.navbar-nav .nav-link {
-    color: #333;
 }
-.navbar-nav .nav-link:hover {
-    color: #333;
-    text-decoration: none;
-}
-
-/* Change the background color, border-radius, and hover effect of the buttons */
-.navbar-nav .nav-item .nav-link {
-    background-color: #333;
-    border-radius: 5px;
-    padding: 10px 20px;
-    transition: all 0.2s ease-in-out;
-}
-.navbar-nav .nav-item .nav-link:hover {
-    background-color: #555;
-}
-
-.image-container {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
