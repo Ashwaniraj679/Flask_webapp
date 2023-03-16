@@ -13,35 +13,39 @@
 
 <body>
     <!--Hero SECTION-->
-    <div>
+    <div id="hero-section">
         <!--Hero-TEXT-->
-        <div class="hero">
-            <div>
+        <div class="hero-text">
+            <div id="phone-email">
                 <!--Email &phone-->
                 (+91) 70618 05734
-
-                ashwaniraj679@mail.com
+                <div style="float:right">
+                    ashwaniraj679@mail.com
+                </div>
             </div>
 
-            <div>
+            <div id="name">
                 <!--Name-->
                 Hi, I’m Ashwani Raj
             </div>
 
+            <!--TITLE-->
             <h1>Freelance Front-end Developer and Data Scientist</h1>
 
+            <!--DESCRIPTION-->
             <div class="subtitle">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis ligula, pellentesque a elit in, convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet est pretium non. </p>
             </div>
 
-            <div>
-                <!--Button-->
-            </div>
+            <!--Button-->
+            <button id="contact-button" onclick="location.href='tel:7061805734'">
+                Contact Me
+            </button>
 
         </div>
         <!--Hero-IMAGE-->
         <div class="image-container">
-            <img src="{{url_for('static', filename='Images/hero_img.jpg')}}">
+            <img id="hero-img" src="{{url_for('static', filename='Images/hero_img.jpg')}}">
         </div>
 
 
